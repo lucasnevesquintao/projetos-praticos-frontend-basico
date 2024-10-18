@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: hsl(0, 0%, 8%);
+    --cor-do-card: hsl(0, 0%, 12%);
+    --cor-dos-botoes: hsl(0, 0%, 30%);
+    --cor-do-subtitulo: hsl(75, 94%, 57%);
+    --fonte:'Inter', monospace, sans-serif;
+}
+
+body, html{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+}
+
+main {
+    height: 100dvh;
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--cor-do-card);
+    height: 645px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.imagem-jessica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 95px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--cor-do-subtitulo);
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    width: 80%;
+    height: 50px;
+    background-color: var(--cor-dos-botoes);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 17px;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: var(--cor-do-subtitulo);
+    color: var(--cor-de-fundo);
+    cursor: pointer;
+}
