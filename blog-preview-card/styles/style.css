@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+/*Weights: 500, 800*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: hsl(47, 88%, 63%);
+    --cor-do-card: hsl(0, 0%, 100%);
+    --cor-paragrafo: hsl(0, 0%, 42%);
+    --cor-titulos: hsl(0, 0%, 7%);
+    --fonte: 'Figtree'
+}
+
+/*Font size (paragraph): 16px*/
+
+body, html {
+    background-color: var(--cor-de-fundo);
+}
+
+main {
+    height: 100dvh;
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte);
+}
+
+.container {
+    background-color: var(--cor-do-card);
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 9px 9px 0px black;
+}
+
+.imagem, img{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+
+.paygemeuamor {
+    margin-top: 1.25rem;
+    margin-left: 2rem;
+}
+
+button {
+    color: var(--cor-titulos);
+    background-color: var(--cor-de-fundo);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 85px;
+    font-weight: 800;
+}
+
+p.p1 {
+    color: var(--cor-titulos);
+    margin-top: 0.70rem;
+}
+
+.heynmylove {
+    margin-left: 2rem;
+}
+
+h1 {
+    color: var(--cor-titulos);
+    font-weight: 800;
+    margin-top: 0.75rem;
+    font-size: 25px;
+}
+
+h1:hover {
+    color: var(--cor-de-fundo);
+}
+
+p.p2 {
+    color: var(--cor-paragrafo);
+    margin-top: 0.75rem;
+    font-size: 16px;
+}
+
+.granfinale {
+    margin-top: 0.80rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+img.greg {
+    height: 36px;
+    width: auto;
+    margin-right: 0.80rem;
+}
+
+p.p3 {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}

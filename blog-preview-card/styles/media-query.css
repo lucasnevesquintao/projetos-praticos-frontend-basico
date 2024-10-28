@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Device Breakpoints
+    Telas Extra Pequenas(celular): até 576px
+    Telas Pequenas (celular, tablets): 577px a 768px
+    Telas Médias(tablets grandes): 769px a 1024px
+    Telas Grandes (desktops): 1025px a 1440px
+    Telas Extra Grandes (desktops, tv's)
+*/
+
+@media screen and (max-width: 576px) {
+    .container {
+        height: 500px;
+        width: 320px;
+    }
+
+    .imagem {
+        height: 180px;
+        width: auto;
+    }
+
+    .paygemeuamor, .heynmylove, .granfinale {
+        margin-top: 1.5rem;
+        margin-left: 1.20rem;
+    }
+}
